@@ -14,7 +14,7 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image1]: ./output_images/undistored_chess.png "Undistorted"
+[image1]: ./output_images/undistorted_chess.png "Undistorted"
 [image2]: ./test_images/straight_lines1.jpg "Test image"
 [image2]: ./output_images/undistorted.png
 [image4]: ./output_images/binary.png "Binary Example"
@@ -59,7 +59,7 @@ I used a combination of color and gradient thresholds to generate a binary image
 
 #### 3. Describe how (and identify where in your code) you performed a perspective transform and provide an example of a transformed image.
 
-The code for my perspective transform includes a function called `hawk_eye(image)`, (in the 3rd code cell of the IPython notebook).  The `warper()` function takes as inputs an image , as well as source (`src`) and destination (`dst`) points. 
+The code for my perspective transform includes a function called `hawk_eye(image)`, (in the 3rd code cell of the IPython notebook).  The `hawk_eye` function takes as inputs an image , as well as source (`src`) and destination (`dst`) points. 
 I verified that my perspective transform was working as expected by drawing the `src` and `dst` points onto a test image and its warped counterpart to verify that the lines appear parallel in the warped image.
 
 ![alt text][image5]
